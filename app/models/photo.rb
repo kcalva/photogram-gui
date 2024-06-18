@@ -43,7 +43,7 @@ class Photo < ApplicationRecord
 
   def fans
     my_likes = self.likes
-    
+
     array_of_user_ids = Array.new
 
     my_likes.each do |a_like|

@@ -1,14 +1,3 @@
-  <nav>
-  <ul>
-    <li>
-      <a href="/users">Users</a>
-    </li>
-    <li>
-      <a href="/photos">Photos</a>
-    </li>
-  </ul>
-</nav>
-
 <h1>List of users</h1>
 
 <form action="/add_user" method="post">
@@ -45,7 +34,7 @@
         </td>
 
         <td>
-          <a href="/users/<%= user.id%>">
+          <a href="/users/<%= user.username%>">
             Show details
           </a>
         </td>
